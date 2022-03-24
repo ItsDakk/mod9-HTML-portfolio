@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(50,25,25,0.5)),url(/images/Field&Trees.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li style="font-size: 18px">Where to next?</li>
+            <li style><a href="index.html">Home</a></li>
+            <li><a href="hobbies.html">My Hobbies</a></li>
+            <li><a href="my_story.html">My Story</a></li>
+            <li><a href="my_why.html">My Why</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div id="main-text">
+            <h1 style="font-size: 50px; font-style: oblique;">Dakodah Bradley</h1>
+            <p style="font-size: 20px; font-style: italic;" id="sub-text">Just call me Dak!</p>
+        </div>
+    </div>
+    <main>
+        <div>
+            <article class="side-articles" id="profile">
+               <img id="profile-image" src="images/me.jpeg">
+               <div id="profile-details">
+                   <ul>
+                       <li>Where to find me:</li>
+                       <li><a id ="linkedin" href="www.linkedin.com/in/dakodah-bradley" target="_blank">Linkedin</a></li>
+                       <br />
+                       <li><a id="email-link" href="mailto:dakodah.bradley@gmail.com">dakodah.bradley@gmail.com</a></li>
+                   </ul>
+               </div>
+            </article>
+            <div id="contact-area">
+                <h1>Contact Me</h1>
+                <form action="mailto:dakodah.bradley@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br />
+                    <input type="text" id="name" placeholder="Your Name">
+                    <br />
+                    <label for="body"><strong>Message</strong></label> 
+                    <br />
+                    <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+                    <br />
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+    </main>
+    <hr />
+    <footer>
+        <audio controls autoplay id="audio-why">
+            <source src="/audio/02 Donny In Valdez (Instrumental).mp3" type="audio/mp3">
+        </audio>
+        <div>
+            &copy It's Dak 2022 &nbsp;
+        </div>
+    </footer>
+</body>
+</html>
